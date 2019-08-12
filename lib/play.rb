@@ -41,4 +41,5 @@ def play(board)
   until looper == 9
     turn(board)
     looper += 1
+  end
 end
