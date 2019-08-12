@@ -37,5 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-  do.turn 9
+  looper = 0
+  until looper == 9
+    turn(board)
+    looper += 1
 end
